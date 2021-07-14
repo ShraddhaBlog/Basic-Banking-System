@@ -1,0 +1,111 @@
+<style>
+h1{
+text-align:center;
+color:white;
+}
+body{
+margin:0;
+padding:0;
+background-image:url('./back1.jpg')no-repeat;
+background-size:cover;
+background-position:center;
+font-family:verdana;
+}
+
+*{
+  margin:0;
+  padding:0;
+  font-family:verdana;
+}
+#abc{
+  width:100%;
+  height:100vh;
+  background-image: url(back1.jpg);
+  background-size: cover;
+}
+nav{
+  width: 100%;
+  height: 50px;
+  background-color: #0005;
+  line-height: 50px;
+}
+nav ul{
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  list-style-type: none;
+  display: inline-block;
+  transition: 0.7s all;
+}
+nav ul li:hover{
+  background-color:#088;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 30px;
+}
+.registerr
+{
+width:400px;
+height:500px;
+background:rgba(0,0,0,0.5);
+color:#fff;
+top:58%;
+left:50%;
+position:absolute;
+transform:translate(-50%,-50%);
+box-sizing:border-box;
+padding :50px 30px;
+margin: 9px  0;
+}
+.registerr h1{
+font-size:30px;
+text-align:center;
+text-transform:uppercase;
+
+}
+.registerr p{
+top:70%;
+font-size:18px;
+margin:10px 0;
+
+font-family:verdana;
+}
+.registerr input{
+font-size:15px;
+width:100%;
+padding:7px 5px;
+border:1px;
+outline:none;
+border-radius:5px;
+font-family:verdana;
+
+}
+.registerr input:hover{
+cursor:pointer;
+background-color:#B2BEB5;
+}
+.registerr button
+{
+
+font-size:16px;
+font-weight:bold;
+margin:20px 0;
+padding:10px 11px;
+width:60%;
+border-radius:20px;
+border:0;
+outline-0;
+margin-left:50px;
+height:40px;
+background-color:red;
+color:white;
+}
+.registerr button:hover{
+cursor:pointer;
+background:#39dc79;
+color:#000;
+}
+</style>
